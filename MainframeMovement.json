@@ -1,0 +1,482 @@
+{
+    "type": "bundle",
+    "id": "bundle--cc9a141b-bb6f-418c-9538-f398f61ec2ce",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--88ef785a-207f-4da9-9db5-3da1195010d2",
+            "created": "2022-05-27T21:09:34.906Z",
+            "modified": "2022-05-27T21:09:34.906Z",
+            "name": "splunk",
+            "identity_class": "system"
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--71b1f8ff-5e35-4d38-9899-3af4b9f55b1e",
+            "created": "2022-05-27T21:09:34.908Z",
+            "modified": "2022-05-27T21:09:34.908Z",
+            "first_observed": "2022-05-27T16:10:49.424977Z",
+            "last_observed": "2022-05-27T16:10:49.424977Z",
+            "number_observed": 8,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "10.1.136.27"
+                },
+                "1": {
+                    "type": "url",
+                    "value": "https://W3SVC241260617.telco.net/"
+                },
+                "2": {
+                    "type": "domain-name",
+                    "value": "W3SVC241260617.telco.net"
+                },
+                "3": {
+                    "type": "user-account",
+                    "user_id": "iam_test_user_2"
+                },
+                "4": {
+                    "type": "x-deviceid",
+                    "deviceid": "856089933444546560"
+                },
+                "5": {
+                    "type": "ipv4-addr",
+                    "value": "172.17.6.87"
+                },
+                "6": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "5",
+                    "src_port": 55906,
+                    "dst_port": 443,
+                    "protocols": [
+                        "https"
+                    ]
+                },
+                "7": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "host_ref": [
+                        "8"
+                    ],
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "8": {
+                    "type": "x-oca-asset",
+                    "hostname": "cdc_ho_srv4.vzw.local",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ]
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--c6cd1a4c-0b6b-4cb8-b5e1-154ff33db941",
+            "created": "2022-05-27T21:09:34.912Z",
+            "modified": "2022-05-27T21:09:34.912Z",
+            "first_observed": "2022-05-27T16:11:29.425046Z",
+            "last_observed": "2022-05-27T16:11:29.425046Z",
+            "number_observed": 8,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "10.1.136.27"
+                },
+                "1": {
+                    "type": "url",
+                    "value": "https://W3SVC241260617.telco.net/"
+                },
+                "2": {
+                    "type": "domain-name",
+                    "value": "W3SVC241260617.telco.net"
+                },
+                "3": {
+                    "type": "user-account",
+                    "user_id": "iam_test_user_3"
+                },
+                "4": {
+                    "type": "x-deviceid",
+                    "deviceid": "856089933444546560"
+                },
+                "5": {
+                    "type": "ipv4-addr",
+                    "value": "172.17.6.87"
+                },
+                "6": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "5",
+                    "src_port": 52548,
+                    "dst_port": 443,
+                    "protocols": [
+                        "https"
+                    ]
+                },
+                "7": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "host_ref": [
+                        "8"
+                    ],
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "8": {
+                    "type": "x-oca-asset",
+                    "hostname": "cdc_ho_srv4.vzw.local",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ]
+                }
+            }
+        }
+    ]
+}
+17:53
+Andrew Campagna:texas-4540: 
+{
+    "type": "bundle",
+    "id": "bundle--2021d535-11c3-4dd8-a7ea-040ec7cba8b5",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--cbcdde9d-328c-4db5-b002-2d46af5a812d",
+            "created": "2022-05-27T21:52:42.521Z",
+            "modified": "2022-05-27T21:52:42.521Z",
+            "name": "splunk",
+            "identity_class": "system"
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--a4441266-281b-4637-9410-d7701fcd93e8",
+            "created": "2022-05-27T21:52:42.524Z",
+            "modified": "2022-05-27T21:52:42.524Z",
+            "first_observed": "2022-05-27T16:53:51.753429Z",
+            "last_observed": "2022-05-27T16:53:51.753429Z",
+            "number_observed": 8,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "10.1.136.27"
+                },
+                "1": {
+                    "type": "url",
+                    "value": "https://W3SVC241260617.telco.net/"
+                },
+                "2": {
+                    "type": "domain-name",
+                    "value": "W3SVC241260617.telco.net"
+                },
+                "3": {
+                    "type": "user-account",
+                    "user_id": "iam_test_user_3"
+                },
+                "4": {
+                    "type": "x-deviceid",
+                    "deviceid": "856089933444546560"
+                },
+                "5": {
+                    "type": "ipv4-addr",
+                    "value": "172.17.6.87"
+                },
+                "6": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "5",
+                    "src_port": 58080,
+                    "dst_port": 443,
+                    "protocols": [
+                        "https"
+                    ]
+                },
+                "7": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "host_ref": [
+                        "8"
+                    ],
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "8": {
+                    "type": "x-oca-asset",
+                    "hostname": "cdc_ho_srv4.vzw.local",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ]
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--cec6a47e-ad63-4400-9b51-8617c1aaee1b",
+            "created": "2022-05-27T21:52:42.527Z",
+            "modified": "2022-05-27T21:52:42.527Z",
+            "first_observed": "2022-05-27T16:53:51.753685Z",
+            "last_observed": "2022-05-27T16:53:51.753685Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "3b:4f:a1:14:db:bb"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "10.1.136.27",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "file",
+                    "name": "/tmp/eCDSGUI33.jar"
+                },
+                "3": {
+                    "type": "user-account",
+                    "user_id": "iam_test_user_3"
+                },
+                "4": {
+                    "type": "x-deviceid",
+                    "deviceid": "856089933444546560"
+                },
+                "5": {
+                    "type": "ipv4-addr",
+                    "value": "172.17.6.87"
+                },
+                "6": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "5",
+                    "src_port": 5042,
+                    "dst_port": 443,
+                    "protocols": [
+                        "TCP"
+                    ]
+                },
+                "7": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "host_ref": [
+                        "8"
+                    ],
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "8": {
+                    "type": "x-oca-asset",
+                    "hostname": "cdc_ho_srv4.vzw.local",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ]
+                }
+            }
+        }
+    ]
+}
+19:03
+Andrew Campagna:texas-4540: with create process:
+19:41
+Andrew Campagna:texas-4540: 
+{
+    "type": "bundle",
+    "id": "bundle--2e1c506f-b67b-40d5-9eae-7389deb5b9ec",
+    "spec_version": "2.0",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--b3d41e42-ee48-4efd-910f-5c426dbb2757",
+            "created": "2022-05-27T23:41:33.323Z",
+            "modified": "2022-05-27T23:41:33.323Z",
+            "name": "splunk",
+            "identity_class": "system"
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--b42ee95d-deee-49e4-be14-a176b2c8e6cc",
+            "created": "2022-05-27T23:41:33.326Z",
+            "modified": "2022-05-27T23:41:33.326Z",
+            "first_observed": "2022-05-27T18:42:16.811629Z",
+            "last_observed": "2022-05-27T18:42:16.811629Z",
+            "number_observed": 8,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "10.1.136.27"
+                },
+                "1": {
+                    "type": "url",
+                    "value": "https://W3SVC241260617.telco.net/"
+                },
+                "2": {
+                    "type": "domain-name",
+                    "value": "W3SVC241260617.telco.net"
+                },
+                "3": {
+                    "type": "user-account",
+                    "user_id": "iam_test_user_3"
+                },
+                "4": {
+                    "type": "x-deviceid",
+                    "deviceid": "856089933444546560"
+                },
+                "5": {
+                    "type": "ipv4-addr",
+                    "value": "172.17.6.87"
+                },
+                "6": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "5",
+                    "src_port": 56907,
+                    "dst_port": 443,
+                    "protocols": [
+                        "https"
+                    ]
+                },
+                "7": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "host_ref": [
+                        "8"
+                    ],
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "8": {
+                    "type": "x-oca-asset",
+                    "hostname": "cdc_ho_srv4.vzw.local",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ]
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--660d6d89-f544-4bff-bb9e-9b45ce27b14f",
+            "created": "2022-05-27T23:41:33.330Z",
+            "modified": "2022-05-27T23:41:33.330Z",
+            "first_observed": "2022-05-27T18:42:16.811736Z",
+            "last_observed": "2022-05-27T18:42:16.811736Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "3b:4f:a1:14:db:bb"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "10.1.136.27",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "file",
+                    "name": "/tmp/eCDSGUI33.jar"
+                },
+                "3": {
+                    "type": "user-account",
+                    "user_id": "iam_test_user_3"
+                },
+                "4": {
+                    "type": "x-deviceid",
+                    "deviceid": "856089933444546560"
+                },
+                "5": {
+                    "type": "ipv4-addr",
+                    "value": "172.17.6.87"
+                },
+                "6": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "5",
+                    "src_port": 443,
+                    "dst_port": 443,
+                    "protocols": [
+                        "TCP"
+                    ]
+                },
+                "7": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "host_ref": [
+                        "8"
+                    ],
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "8": {
+                    "type": "x-oca-asset",
+                    "hostname": "cdc_ho_srv4.vzw.local",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ]
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--cd6ed425-fc62-4435-97cd-d89420d2d64f",
+            "created": "2022-05-27T23:41:33.332Z",
+            "modified": "2022-05-27T23:41:33.332Z",
+            "first_observed": "2022-05-27T18:43:02.811836Z",
+            "last_observed": "2022-05-27T18:43:02.811836Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "3b:4f:a1:14:db:bb"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "10.1.136.27",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "process",
+                    "pid": 226,
+                    "name": "eCDSGUI33.jar"
+                },
+                "3": {
+                    "type": "user-account",
+                    "user_id": "iam_test_user_3"
+                },
+                "4": {
+                    "type": "x-deviceid",
+                    "deviceid": "856089933444546560"
+                }
+            }
+        }
+    ]
+}
