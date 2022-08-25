@@ -1,21 +1,23 @@
 {
     "type": "bundle",
-    "id": "bundle--8ed5187c-f2fc-467b-933d-c11088ac1409",
+    "id": "bundle--24a6c575-0558-411f-83ee-740387c242df",
     "spec_version": "2.0",
-    "objects": [{
+    "objects": [
+        {
             "type": "identity",
-            "id": "identity--e63d0935-25d5-4b4c-9971-899ee0f5b3ad",
-            "created": "2022-08-18T18:56:03.642Z",
-            "modified": "2022-08-18T18:56:03.642Z",
+            "id": "identity--5d900286-75c0-476a-82b0-275d5086d1c1",
+            "created": "2022-08-25T19:21:50.419Z",
+            "modified": "2022-08-25T19:21:50.419Z",
             "name": "splunk",
             "identity_class": "system"
-        }, {
+        },
+        {
             "type": "observed-data",
-            "id": "observed-data--571fc678-0278-4d5c-8abc-03112e532adc",
-            "created": "2022-08-18T18:56:03.643Z",
-            "modified": "2022-08-18T18:56:03.643Z",
-            "first_observed": "2022-08-18T13:57:03.378174Z",
-            "last_observed": "2022-08-18T13:57:03.378174Z",
+            "id": "observed-data--972cb2cc-a6ba-4422-9101-f4ef75a700f2",
+            "created": "2022-08-25T19:21:50.421Z",
+            "modified": "2022-08-25T19:21:50.421Z",
+            "first_observed": "2022-08-25T14:23:09.131362Z",
+            "last_observed": "2022-08-25T14:23:09.131362Z",
             "number_observed": 5,
             "objects": {
                 "0": {
@@ -30,7 +32,7 @@
                     "type": "network-traffic",
                     "src_ref": "0",
                     "dst_ref": "1",
-                    "src_port": 51352,
+                    "src_port": 61558,
                     "dst_port": 80,
                     "protocols": [
                         "TCP"
@@ -57,13 +59,14 @@
                     "deviceid": "SGDEV101"
                 }
             }
-        }, {
+        },
+        {
             "type": "observed-data",
-            "id": "observed-data--013eac60-250f-4a02-b825-22ebe24ac2a6",
-            "created": "2022-08-18T18:56:03.645Z",
-            "modified": "2022-08-18T18:56:03.645Z",
-            "first_observed": "2022-08-18T13:58:17.378251Z",
-            "last_observed": "2022-08-18T13:58:17.378251Z",
+            "id": "observed-data--a586bc5c-ae96-4008-bc82-213d4e631155",
+            "created": "2022-08-25T19:21:50.423Z",
+            "modified": "2022-08-25T19:21:50.423Z",
+            "first_observed": "2022-08-25T14:23:49.131369Z",
+            "last_observed": "2022-08-25T14:23:49.131369Z",
             "number_observed": 5,
             "objects": {
                 "0": {
@@ -78,7 +81,7 @@
                     "type": "network-traffic",
                     "src_ref": "0",
                     "dst_ref": "1",
-                    "src_port": 56166,
+                    "src_port": 59337,
                     "dst_port": 80,
                     "protocols": [
                         "TCP"
@@ -105,13 +108,798 @@
                     "deviceid": "SGDEV101"
                 }
             }
-        }, {
+        },
+        {
             "type": "observed-data",
-            "id": "observed-data--ad8c33b5-62dd-48c9-a42b-6572c262e21d",
-            "created": "2022-08-18T18:56:03.647Z",
-            "modified": "2022-08-18T18:56:03.647Z",
-            "first_observed": "2022-08-18T13:59:24.378088Z",
-            "last_observed": "2022-08-18T13:59:24.378088Z",
+            "id": "observed-data--1465bc35-e138-42ef-957c-fc495fc73686",
+            "created": "2022-08-25T19:21:50.425Z",
+            "modified": "2022-08-25T19:21:50.425Z",
+            "first_observed": "2022-08-25T14:25:10.131388Z",
+            "last_observed": "2022-08-25T14:25:10.131388Z",
+            "number_observed": 5,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.219.215"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "172.67.188.154"
+                },
+                "2": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "1",
+                    "src_port": 60942,
+                    "dst_port": 80,
+                    "protocols": [
+                        "TCP"
+                    ]
+                },
+                "3": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "4": {
+                    "type": "x-oca-asset",
+                    "ip_refs": [
+                        "0"
+                    ],
+                    "hostname": "workstation1.sg2.local"
+                },
+                "5": {
+                    "type": "x-deviceid",
+                    "deviceid": "SGDEV101"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--1b6a041f-3d20-4e7b-b059-e400e54d5711",
+            "created": "2022-08-25T19:21:50.427Z",
+            "modified": "2022-08-25T19:21:50.427Z",
+            "first_observed": "2022-08-25T14:26:15.131392Z",
+            "last_observed": "2022-08-25T14:26:15.131392Z",
+            "number_observed": 5,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.219.215"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "216.146.43.70"
+                },
+                "2": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "1",
+                    "src_port": 55154,
+                    "dst_port": 80,
+                    "protocols": [
+                        "TCP"
+                    ]
+                },
+                "3": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "4": {
+                    "type": "x-oca-asset",
+                    "ip_refs": [
+                        "0"
+                    ],
+                    "hostname": "workstation1.sg2.local"
+                },
+                "5": {
+                    "type": "x-deviceid",
+                    "deviceid": "SGDEV101"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--a64ad0a0-11d5-4213-952f-41aa1f23202c",
+            "created": "2022-08-25T19:21:50.429Z",
+            "modified": "2022-08-25T19:21:50.429Z",
+            "first_observed": "2022-08-25T14:27:14.131414Z",
+            "last_observed": "2022-08-25T14:27:14.131414Z",
+            "number_observed": 5,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.219.215"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "172.67.188.154"
+                },
+                "2": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "1",
+                    "src_port": 52627,
+                    "dst_port": 80,
+                    "protocols": [
+                        "TCP"
+                    ]
+                },
+                "3": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "4": {
+                    "type": "x-oca-asset",
+                    "ip_refs": [
+                        "0"
+                    ],
+                    "hostname": "workstation1.sg2.local"
+                },
+                "5": {
+                    "type": "x-deviceid",
+                    "deviceid": "SGDEV101"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--0cedfc18-4daf-4600-a082-95ed7d732432",
+            "created": "2022-08-25T19:21:50.432Z",
+            "modified": "2022-08-25T19:21:50.432Z",
+            "first_observed": "2022-08-25T14:28:30.131417Z",
+            "last_observed": "2022-08-25T14:28:30.131417Z",
+            "number_observed": 5,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.219.215"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "216.146.43.70"
+                },
+                "2": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "1",
+                    "src_port": 63008,
+                    "dst_port": 80,
+                    "protocols": [
+                        "TCP"
+                    ]
+                },
+                "3": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "4": {
+                    "type": "x-oca-asset",
+                    "ip_refs": [
+                        "0"
+                    ],
+                    "hostname": "workstation1.sg2.local"
+                },
+                "5": {
+                    "type": "x-deviceid",
+                    "deviceid": "SGDEV101"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--3527e38e-53e1-44b4-8cf7-9ef8660aa7ad",
+            "created": "2022-08-25T19:21:50.434Z",
+            "modified": "2022-08-25T19:21:50.434Z",
+            "first_observed": "2022-08-25T14:29:52.131373Z",
+            "last_observed": "2022-08-25T14:29:52.131373Z",
+            "number_observed": 5,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.219.221"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "172.67.188.154"
+                },
+                "2": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "1",
+                    "src_port": 62230,
+                    "dst_port": 80,
+                    "protocols": [
+                        "TCP"
+                    ]
+                },
+                "3": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "4": {
+                    "type": "x-oca-asset",
+                    "ip_refs": [
+                        "0"
+                    ],
+                    "hostname": "workstation2.sg2.local"
+                },
+                "5": {
+                    "type": "x-deviceid",
+                    "deviceid": "SGDEV101"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--fb9aa77d-2e7e-49af-a055-c7bda0798623",
+            "created": "2022-08-25T19:21:50.437Z",
+            "modified": "2022-08-25T19:21:50.437Z",
+            "first_observed": "2022-08-25T14:31:19.131377Z",
+            "last_observed": "2022-08-25T14:31:19.131377Z",
+            "number_observed": 5,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.219.221"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "216.146.43.70"
+                },
+                "2": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "1",
+                    "src_port": 49870,
+                    "dst_port": 80,
+                    "protocols": [
+                        "TCP"
+                    ]
+                },
+                "3": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "4": {
+                    "type": "x-oca-asset",
+                    "ip_refs": [
+                        "0"
+                    ],
+                    "hostname": "workstation2.sg2.local"
+                },
+                "5": {
+                    "type": "x-deviceid",
+                    "deviceid": "SGDEV101"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--59c7ad07-ff96-4ecc-bf27-8a73b98be783",
+            "created": "2022-08-25T19:21:50.439Z",
+            "modified": "2022-08-25T19:21:50.439Z",
+            "first_observed": "2022-08-25T14:32:18.131381Z",
+            "last_observed": "2022-08-25T14:32:18.131381Z",
+            "number_observed": 5,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.219.221"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "8.252.36.126"
+                },
+                "2": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "1",
+                    "src_port": 65085,
+                    "dst_port": 80,
+                    "protocols": [
+                        "TCP"
+                    ]
+                },
+                "3": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "4": {
+                    "type": "x-oca-asset",
+                    "ip_refs": [
+                        "0"
+                    ],
+                    "hostname": "workstation2.sg2.local"
+                },
+                "5": {
+                    "type": "x-deviceid",
+                    "deviceid": "SGDEV101"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--92fac689-b38b-4b3f-8f8a-6b78f4d78675",
+            "created": "2022-08-25T19:21:50.442Z",
+            "modified": "2022-08-25T19:21:50.442Z",
+            "first_observed": "2022-08-25T14:33:45.131385Z",
+            "last_observed": "2022-08-25T14:33:45.131385Z",
+            "number_observed": 5,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.219.221"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "8.253.151.248"
+                },
+                "2": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "1",
+                    "src_port": 51816,
+                    "dst_port": 80,
+                    "protocols": [
+                        "TCP"
+                    ]
+                },
+                "3": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "4": {
+                    "type": "x-oca-asset",
+                    "ip_refs": [
+                        "0"
+                    ],
+                    "hostname": "workstation2.sg2.local"
+                },
+                "5": {
+                    "type": "x-deviceid",
+                    "deviceid": "SGDEV101"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--90575124-8885-42a4-88d9-e403afece639",
+            "created": "2022-08-25T19:21:50.445Z",
+            "modified": "2022-08-25T19:21:50.445Z",
+            "first_observed": "2022-08-25T14:35:10.131399Z",
+            "last_observed": "2022-08-25T14:35:10.131399Z",
+            "number_observed": 5,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.219.221"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "172.67.188.154"
+                },
+                "2": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "1",
+                    "src_port": 63646,
+                    "dst_port": 80,
+                    "protocols": [
+                        "TCP"
+                    ]
+                },
+                "3": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "4": {
+                    "type": "x-oca-asset",
+                    "ip_refs": [
+                        "0"
+                    ],
+                    "hostname": "workstation2.sg2.local"
+                },
+                "5": {
+                    "type": "x-deviceid",
+                    "deviceid": "SGDEV101"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--5cdd509d-d6ec-4593-a436-616069dc1576",
+            "created": "2022-08-25T19:21:50.448Z",
+            "modified": "2022-08-25T19:21:50.448Z",
+            "first_observed": "2022-08-25T14:35:51.131403Z",
+            "last_observed": "2022-08-25T14:35:51.131403Z",
+            "number_observed": 5,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.219.221"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "216.146.43.70"
+                },
+                "2": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "1",
+                    "src_port": 59347,
+                    "dst_port": 80,
+                    "protocols": [
+                        "TCP"
+                    ]
+                },
+                "3": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "4": {
+                    "type": "x-oca-asset",
+                    "ip_refs": [
+                        "0"
+                    ],
+                    "hostname": "workstation2.sg2.local"
+                },
+                "5": {
+                    "type": "x-deviceid",
+                    "deviceid": "SGDEV101"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--5cbd323c-3e1d-4533-89f7-afe29e0fdf2f",
+            "created": "2022-08-25T19:21:50.451Z",
+            "modified": "2022-08-25T19:21:50.451Z",
+            "first_observed": "2022-08-25T14:36:54.131407Z",
+            "last_observed": "2022-08-25T14:36:54.131407Z",
+            "number_observed": 5,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.219.221"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "8.252.36.126"
+                },
+                "2": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "1",
+                    "src_port": 52965,
+                    "dst_port": 80,
+                    "protocols": [
+                        "TCP"
+                    ]
+                },
+                "3": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "4": {
+                    "type": "x-oca-asset",
+                    "ip_refs": [
+                        "0"
+                    ],
+                    "hostname": "workstation2.sg2.local"
+                },
+                "5": {
+                    "type": "x-deviceid",
+                    "deviceid": "SGDEV101"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--c1efe5df-ef37-4bb1-8cb1-2af1493f0423",
+            "created": "2022-08-25T19:21:50.453Z",
+            "modified": "2022-08-25T19:21:50.453Z",
+            "first_observed": "2022-08-25T14:37:50.13141Z",
+            "last_observed": "2022-08-25T14:37:50.13141Z",
+            "number_observed": 5,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.219.221"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "8.253.151.248"
+                },
+                "2": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "1",
+                    "src_port": 62174,
+                    "dst_port": 80,
+                    "protocols": [
+                        "TCP"
+                    ]
+                },
+                "3": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "4": {
+                    "type": "x-oca-asset",
+                    "ip_refs": [
+                        "0"
+                    ],
+                    "hostname": "workstation2.sg2.local"
+                },
+                "5": {
+                    "type": "x-deviceid",
+                    "deviceid": "SGDEV101"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--8e4716b7-b71b-457f-92a0-728202b3e62d",
+            "created": "2022-08-25T19:21:50.457Z",
+            "modified": "2022-08-25T19:21:50.457Z",
+            "first_observed": "2022-08-25T14:38:47.131424Z",
+            "last_observed": "2022-08-25T14:38:47.131424Z",
+            "number_observed": 5,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.219.221"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "172.67.188.154"
+                },
+                "2": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "1",
+                    "src_port": 51676,
+                    "dst_port": 80,
+                    "protocols": [
+                        "TCP"
+                    ]
+                },
+                "3": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "4": {
+                    "type": "x-oca-asset",
+                    "ip_refs": [
+                        "0"
+                    ],
+                    "hostname": "workstation2.sg2.local"
+                },
+                "5": {
+                    "type": "x-deviceid",
+                    "deviceid": "SGDEV101"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--4744d4a4-8cbd-469e-a6d4-870ab1d3523f",
+            "created": "2022-08-25T19:21:50.459Z",
+            "modified": "2022-08-25T19:21:50.459Z",
+            "first_observed": "2022-08-25T14:39:44.13143Z",
+            "last_observed": "2022-08-25T14:39:44.13143Z",
+            "number_observed": 5,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.219.221"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "216.146.43.70"
+                },
+                "2": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "1",
+                    "src_port": 61834,
+                    "dst_port": 80,
+                    "protocols": [
+                        "TCP"
+                    ]
+                },
+                "3": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "4": {
+                    "type": "x-oca-asset",
+                    "ip_refs": [
+                        "0"
+                    ],
+                    "hostname": "workstation2.sg2.local"
+                },
+                "5": {
+                    "type": "x-deviceid",
+                    "deviceid": "SGDEV101"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--1b116b2b-3242-441b-8db3-e133dd7e0675",
+            "created": "2022-08-25T19:21:50.462Z",
+            "modified": "2022-08-25T19:21:50.462Z",
+            "first_observed": "2022-08-25T14:41:04.131433Z",
+            "last_observed": "2022-08-25T14:41:04.131433Z",
+            "number_observed": 5,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.219.221"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "8.252.36.126"
+                },
+                "2": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "1",
+                    "src_port": 64733,
+                    "dst_port": 80,
+                    "protocols": [
+                        "TCP"
+                    ]
+                },
+                "3": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "4": {
+                    "type": "x-oca-asset",
+                    "ip_refs": [
+                        "0"
+                    ],
+                    "hostname": "workstation2.sg2.local"
+                },
+                "5": {
+                    "type": "x-deviceid",
+                    "deviceid": "SGDEV101"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--9b319272-95fc-455a-ae4d-a138242be326",
+            "created": "2022-08-25T19:21:50.464Z",
+            "modified": "2022-08-25T19:21:50.464Z",
+            "first_observed": "2022-08-25T14:42:03.131437Z",
+            "last_observed": "2022-08-25T14:42:03.131437Z",
+            "number_observed": 5,
+            "objects": {
+                "0": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.219.221"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "8.253.151.248"
+                },
+                "2": {
+                    "type": "network-traffic",
+                    "src_ref": "0",
+                    "dst_ref": "1",
+                    "src_port": 52006,
+                    "dst_port": 80,
+                    "protocols": [
+                        "TCP"
+                    ]
+                },
+                "3": {
+                    "type": "x-oca-event",
+                    "action": "ACCEPT",
+                    "ip_refs": [
+                        "0",
+                        "3"
+                    ],
+                    "network_ref": "4"
+                },
+                "4": {
+                    "type": "x-oca-asset",
+                    "ip_refs": [
+                        "0"
+                    ],
+                    "hostname": "workstation2.sg2.local"
+                },
+                "5": {
+                    "type": "x-deviceid",
+                    "deviceid": "SGDEV101"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--bdcbda22-2dd7-4346-b403-7a67f5617239",
+            "created": "2022-08-25T19:21:50.466Z",
+            "modified": "2022-08-25T19:21:50.466Z",
+            "first_observed": "2022-08-25T14:43:19.131111Z",
+            "last_observed": "2022-08-25T14:43:19.131111Z",
             "number_observed": 3,
             "objects": {
                 "0": {
