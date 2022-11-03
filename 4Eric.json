@@ -1,32 +1,32 @@
 {
     "type": "bundle",
-    "id": "bundle--9eb08ffc-e355-488a-9ae6-e5dbb9777b08",
+    "id": "bundle--46c8cbf3-a232-44b6-8d4a-bf385c0072e4",
     "spec_version": "2.0",
     "objects": [
         {
             "type": "identity",
-            "id": "identity--ebb6829f-6b1d-4f5b-8181-a42e0d00e59a",
-            "created": "2022-11-02T19:39:50.115Z",
-            "modified": "2022-11-02T19:39:50.115Z",
+            "id": "identity--16703a9e-44b0-4469-9f4b-a7dcad0193f7",
+            "created": "2022-11-03T04:42:20.935Z",
+            "modified": "2022-11-03T04:42:20.935Z",
             "name": "AWS",
             "identity_class": "events"
         },
         {
             "type": "observed-data",
-            "id": "observed-data--92324c17-9de7-47e0-b6d8-2a5775e0bc04",
-            "created": "2022-11-02T19:39:50.116Z",
-            "modified": "2022-11-02T19:39:50.116Z",
-            "first_observed": "2022-11-02T15:40:50.088619Z",
-            "last_observed": "2022-11-02T15:40:50.088619Z",
+            "id": "observed-data--eef303f3-56d1-4205-a71d-3242e8463fa8",
+            "created": "2022-11-03T04:42:20.936Z",
+            "modified": "2022-11-03T04:42:20.936Z",
+            "first_observed": "2022-11-03T00:42:50.925016Z",
+            "last_observed": "2022-11-03T00:42:50.925016Z",
             "number_observed": 3,
             "objects": {
                 "0": {
                     "type": "mac-addr",
-                    "value": "CC:46:D6:e3:b2:2f"
+                    "value": "CC:46:D6:e3:06:ad"
                 },
                 "1": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.0",
+                    "value": "192.168.2.0",
                     "resolves_to_refs": [
                         "0"
                     ]
@@ -51,20 +51,20 @@
         },
         {
             "type": "observed-data",
-            "id": "observed-data--4b7191aa-0dc1-49c5-8a1f-cddec39a6088",
-            "created": "2022-11-02T19:39:50.117Z",
-            "modified": "2022-11-02T19:39:50.117Z",
-            "first_observed": "2022-11-02T15:41:37.088626Z",
-            "last_observed": "2022-11-02T15:41:37.088626Z",
+            "id": "observed-data--822dbc63-7507-474e-9b26-b4790869e0fc",
+            "created": "2022-11-03T04:42:20.937Z",
+            "modified": "2022-11-03T04:42:20.937Z",
+            "first_observed": "2022-11-03T00:43:43.925023Z",
+            "last_observed": "2022-11-03T00:43:43.925023Z",
             "number_observed": 3,
             "objects": {
                 "0": {
                     "type": "mac-addr",
-                    "value": "CC:46:D6:e3:b2:2f"
+                    "value": "CC:46:D6:e3:06:ad"
                 },
                 "1": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.0",
+                    "value": "192.168.2.0",
                     "resolves_to_refs": [
                         "0"
                     ]
@@ -89,20 +89,20 @@
         },
         {
             "type": "observed-data",
-            "id": "observed-data--4bf94e51-d223-4d08-bf3e-dc733430b366",
-            "created": "2022-11-02T19:39:50.119Z",
-            "modified": "2022-11-02T19:39:50.119Z",
-            "first_observed": "2022-11-02T15:42:46.08863Z",
-            "last_observed": "2022-11-02T15:42:46.08863Z",
+            "id": "observed-data--43025b1d-ce82-4c3c-b581-aa515e121c39",
+            "created": "2022-11-03T04:42:20.939Z",
+            "modified": "2022-11-03T04:42:20.939Z",
+            "first_observed": "2022-11-03T00:45:05.925028Z",
+            "last_observed": "2022-11-03T00:45:05.925028Z",
             "number_observed": 3,
             "objects": {
                 "0": {
                     "type": "mac-addr",
-                    "value": "CC:46:D6:e3:b2:2f"
+                    "value": "CC:46:D6:e3:06:ad"
                 },
                 "1": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.0",
+                    "value": "192.168.2.0",
                     "resolves_to_refs": [
                         "0"
                     ]
@@ -127,20 +127,20 @@
         },
         {
             "type": "observed-data",
-            "id": "observed-data--d8fbc991-cb6e-4e0e-abaf-805a72359885",
-            "created": "2022-11-02T19:39:50.120Z",
-            "modified": "2022-11-02T19:39:50.120Z",
-            "first_observed": "2022-11-02T15:44:02.088635Z",
-            "last_observed": "2022-11-02T15:44:02.088635Z",
+            "id": "observed-data--41450d14-9ce6-4f0e-b37c-5835c78d4f64",
+            "created": "2022-11-03T04:42:20.941Z",
+            "modified": "2022-11-03T04:42:20.941Z",
+            "first_observed": "2022-11-03T00:46:12.925047Z",
+            "last_observed": "2022-11-03T00:46:12.925047Z",
             "number_observed": 3,
             "objects": {
                 "0": {
                     "type": "mac-addr",
-                    "value": "CC:46:D6:e3:b2:2f"
+                    "value": "CC:46:D6:e3:06:ad"
                 },
                 "1": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.0",
+                    "value": "192.168.2.0",
                     "resolves_to_refs": [
                         "0"
                     ]
@@ -165,20 +165,20 @@
         },
         {
             "type": "observed-data",
-            "id": "observed-data--c8559064-71dd-4f77-bcbf-6bebdad8c686",
-            "created": "2022-11-02T19:39:50.122Z",
-            "modified": "2022-11-02T19:39:50.122Z",
-            "first_observed": "2022-11-02T15:45:15.088622Z",
-            "last_observed": "2022-11-02T15:45:15.088622Z",
+            "id": "observed-data--041d020c-9039-4afa-81e6-3dec60463d10",
+            "created": "2022-11-03T04:42:20.943Z",
+            "modified": "2022-11-03T04:42:20.943Z",
+            "first_observed": "2022-11-03T00:47:18.92502Z",
+            "last_observed": "2022-11-03T00:47:18.92502Z",
             "number_observed": 3,
             "objects": {
                 "0": {
                     "type": "mac-addr",
-                    "value": "CC:46:D6:c4:9f:58"
+                    "value": "CC:46:D6:8f:43:9f"
                 },
                 "1": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.1",
+                    "value": "192.168.2.1",
                     "resolves_to_refs": [
                         "0"
                     ]
@@ -203,27 +203,27 @@
         },
         {
             "type": "observed-data",
-            "id": "observed-data--c0f84bf6-c986-4af8-873f-db4fbb189b0d",
-            "created": "2022-11-02T19:39:50.123Z",
-            "modified": "2022-11-02T19:39:50.123Z",
-            "first_observed": "2022-11-02T15:46:05.088624Z",
-            "last_observed": "2022-11-02T15:46:05.088624Z",
+            "id": "observed-data--42189b36-43f4-4a43-974f-0266d6196ff8",
+            "created": "2022-11-03T04:42:20.944Z",
+            "modified": "2022-11-03T04:42:20.944Z",
+            "first_observed": "2022-11-03T00:48:41.925022Z",
+            "last_observed": "2022-11-03T00:48:41.925022Z",
             "number_observed": 3,
             "objects": {
                 "0": {
                     "type": "mac-addr",
-                    "value": "CC:46:D6:e3:b2:2f"
+                    "value": "CC:46:D6:e3:06:ad"
                 },
                 "1": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.0",
+                    "value": "192.168.2.0",
                     "resolves_to_refs": [
                         "0"
                     ]
                 },
                 "2": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.1"
+                    "value": "192.168.2.1"
                 },
                 "3": {
                     "type": "network-traffic",
@@ -241,96 +241,20 @@
         },
         {
             "type": "observed-data",
-            "id": "observed-data--62fab542-8eac-46af-8e9b-9c607e508c27",
-            "created": "2022-11-02T19:39:50.125Z",
-            "modified": "2022-11-02T19:39:50.125Z",
-            "first_observed": "2022-11-02T15:47:08.088627Z",
-            "last_observed": "2022-11-02T15:47:08.088627Z",
+            "id": "observed-data--89961d92-4949-4dd3-aad1-4f47d88f766e",
+            "created": "2022-11-03T04:42:20.946Z",
+            "modified": "2022-11-03T04:42:20.946Z",
+            "first_observed": "2022-11-03T00:49:41.925025Z",
+            "last_observed": "2022-11-03T00:49:41.925025Z",
             "number_observed": 3,
             "objects": {
                 "0": {
                     "type": "mac-addr",
-                    "value": "CC:46:D6:c4:9f:58"
+                    "value": "CC:46:D6:8f:43:9f"
                 },
                 "1": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.1",
-                    "resolves_to_refs": [
-                        "0"
-                    ]
-                },
-                "2": {
-                    "type": "ipv4-addr",
-                    "value": "192.168.48.122"
-                },
-                "3": {
-                    "type": "network-traffic",
-                    "src_ref": "1",
-                    "dst_ref": "2",
-                    "protocols": [
-                        "tcp"
-                    ]
-                },
-                "4": {
-                    "type": "user-account",
-                    "user_id": "sysadmin2"
-                }
-            }
-        },
-        {
-            "type": "observed-data",
-            "id": "observed-data--62e4ea6c-86ee-4295-8399-12391c4e4a7d",
-            "created": "2022-11-02T19:39:50.128Z",
-            "modified": "2022-11-02T19:39:50.128Z",
-            "first_observed": "2022-11-02T15:48:13.088629Z",
-            "last_observed": "2022-11-02T15:48:13.088629Z",
-            "number_observed": 3,
-            "objects": {
-                "0": {
-                    "type": "mac-addr",
-                    "value": "CC:46:D6:e3:b2:2f"
-                },
-                "1": {
-                    "type": "ipv4-addr",
-                    "value": "192.168.0.0",
-                    "resolves_to_refs": [
-                        "0"
-                    ]
-                },
-                "2": {
-                    "type": "ipv4-addr",
-                    "value": "192.168.0.1"
-                },
-                "3": {
-                    "type": "network-traffic",
-                    "src_ref": "1",
-                    "dst_ref": "2",
-                    "protocols": [
-                        "tcp"
-                    ]
-                },
-                "4": {
-                    "type": "user-account",
-                    "user_id": "sysadmin2"
-                }
-            }
-        },
-        {
-            "type": "observed-data",
-            "id": "observed-data--f335637e-69cf-4e94-88f8-7c5a15f925e8",
-            "created": "2022-11-02T19:39:50.129Z",
-            "modified": "2022-11-02T19:39:50.129Z",
-            "first_observed": "2022-11-02T15:49:08.088631Z",
-            "last_observed": "2022-11-02T15:49:08.088631Z",
-            "number_observed": 3,
-            "objects": {
-                "0": {
-                    "type": "mac-addr",
-                    "value": "CC:46:D6:c4:9f:58"
-                },
-                "1": {
-                    "type": "ipv4-addr",
-                    "value": "192.168.0.1",
+                    "value": "192.168.2.1",
                     "resolves_to_refs": [
                         "0"
                     ]
@@ -355,27 +279,27 @@
         },
         {
             "type": "observed-data",
-            "id": "observed-data--514eef93-6879-4ad3-87e4-d29bffade6f6",
-            "created": "2022-11-02T19:39:50.131Z",
-            "modified": "2022-11-02T19:39:50.131Z",
-            "first_observed": "2022-11-02T15:49:51.088633Z",
-            "last_observed": "2022-11-02T15:49:51.088633Z",
+            "id": "observed-data--90691a49-0f3e-45ba-987e-a64c88d37be5",
+            "created": "2022-11-03T04:42:20.947Z",
+            "modified": "2022-11-03T04:42:20.947Z",
+            "first_observed": "2022-11-03T00:51:06.925027Z",
+            "last_observed": "2022-11-03T00:51:06.925027Z",
             "number_observed": 3,
             "objects": {
                 "0": {
                     "type": "mac-addr",
-                    "value": "CC:46:D6:e3:b2:2f"
+                    "value": "CC:46:D6:e3:06:ad"
                 },
                 "1": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.0",
+                    "value": "192.168.2.0",
                     "resolves_to_refs": [
                         "0"
                     ]
                 },
                 "2": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.1"
+                    "value": "192.168.2.1"
                 },
                 "3": {
                     "type": "network-traffic",
@@ -393,20 +317,20 @@
         },
         {
             "type": "observed-data",
-            "id": "observed-data--8bcc7014-5d2d-4507-ae7c-66e8cb6d4c86",
-            "created": "2022-11-02T19:39:50.132Z",
-            "modified": "2022-11-02T19:39:50.132Z",
-            "first_observed": "2022-11-02T15:50:40.088636Z",
-            "last_observed": "2022-11-02T15:50:40.088636Z",
+            "id": "observed-data--1a03f61d-1cf9-4e34-8f00-55256db0b1af",
+            "created": "2022-11-03T04:42:20.949Z",
+            "modified": "2022-11-03T04:42:20.949Z",
+            "first_observed": "2022-11-03T00:51:50.925029Z",
+            "last_observed": "2022-11-03T00:51:50.925029Z",
             "number_observed": 3,
             "objects": {
                 "0": {
                     "type": "mac-addr",
-                    "value": "CC:46:D6:c4:9f:58"
+                    "value": "CC:46:D6:8f:43:9f"
                 },
                 "1": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.1",
+                    "value": "192.168.2.1",
                     "resolves_to_refs": [
                         "0"
                     ]
@@ -431,27 +355,27 @@
         },
         {
             "type": "observed-data",
-            "id": "observed-data--4039a798-3cb4-47bb-b7db-8b41dc7e8331",
-            "created": "2022-11-02T19:39:50.134Z",
-            "modified": "2022-11-02T19:39:50.134Z",
-            "first_observed": "2022-11-02T15:51:25.088638Z",
-            "last_observed": "2022-11-02T15:51:25.088638Z",
+            "id": "observed-data--fb5b796c-1ffb-454e-8296-4b8229dfd9b6",
+            "created": "2022-11-03T04:42:20.950Z",
+            "modified": "2022-11-03T04:42:20.950Z",
+            "first_observed": "2022-11-03T00:53:14.925031Z",
+            "last_observed": "2022-11-03T00:53:14.925031Z",
             "number_observed": 3,
             "objects": {
                 "0": {
                     "type": "mac-addr",
-                    "value": "CC:46:D6:e3:b2:2f"
+                    "value": "CC:46:D6:e3:06:ad"
                 },
                 "1": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.0",
+                    "value": "192.168.2.0",
                     "resolves_to_refs": [
                         "0"
                     ]
                 },
                 "2": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.1"
+                    "value": "192.168.2.1"
                 },
                 "3": {
                     "type": "network-traffic",
@@ -469,20 +393,96 @@
         },
         {
             "type": "observed-data",
-            "id": "observed-data--1a8a6e31-1f1f-493a-8966-219e624b0f8e",
-            "created": "2022-11-02T19:39:50.136Z",
-            "modified": "2022-11-02T19:39:50.136Z",
-            "first_observed": "2022-11-02T15:52:16.088524Z",
-            "last_observed": "2022-11-02T15:52:16.088524Z",
+            "id": "observed-data--6afc49c9-be8e-4b9c-8ce2-017414778f34",
+            "created": "2022-11-03T04:42:20.952Z",
+            "modified": "2022-11-03T04:42:20.952Z",
+            "first_observed": "2022-11-03T00:54:30.925049Z",
+            "last_observed": "2022-11-03T00:54:30.925049Z",
             "number_observed": 3,
             "objects": {
                 "0": {
                     "type": "mac-addr",
-                    "value": "CC:46:D6:e3:b2:2f"
+                    "value": "CC:46:D6:8f:43:9f"
                 },
                 "1": {
                     "type": "ipv4-addr",
-                    "value": "192.168.0.0",
+                    "value": "192.168.2.1",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.48.122"
+                },
+                "3": {
+                    "type": "network-traffic",
+                    "src_ref": "1",
+                    "dst_ref": "2",
+                    "protocols": [
+                        "tcp"
+                    ]
+                },
+                "4": {
+                    "type": "user-account",
+                    "user_id": "sysadmin2"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--601b6f56-2d7a-4bdf-b1f8-7fd91830931b",
+            "created": "2022-11-03T04:42:20.953Z",
+            "modified": "2022-11-03T04:42:20.953Z",
+            "first_observed": "2022-11-03T00:55:15.92505Z",
+            "last_observed": "2022-11-03T00:55:15.92505Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:e3:06:ad"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.2.0",
+                    "resolves_to_refs": [
+                        "0"
+                    ]
+                },
+                "2": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.2.1"
+                },
+                "3": {
+                    "type": "network-traffic",
+                    "src_ref": "1",
+                    "dst_ref": "2",
+                    "protocols": [
+                        "tcp"
+                    ]
+                },
+                "4": {
+                    "type": "user-account",
+                    "user_id": "sysadmin2"
+                }
+            }
+        },
+        {
+            "type": "observed-data",
+            "id": "observed-data--fc70afc6-75a6-4e7a-a5da-a11de350f8a2",
+            "created": "2022-11-03T04:42:20.956Z",
+            "modified": "2022-11-03T04:42:20.956Z",
+            "first_observed": "2022-11-03T00:56:34.924821Z",
+            "last_observed": "2022-11-03T00:56:34.924821Z",
+            "number_observed": 3,
+            "objects": {
+                "0": {
+                    "type": "mac-addr",
+                    "value": "CC:46:D6:e3:06:ad"
+                },
+                "1": {
+                    "type": "ipv4-addr",
+                    "value": "192.168.2.0",
                     "resolves_to_refs": [
                         "0"
                     ]
